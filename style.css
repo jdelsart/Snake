@@ -1,0 +1,45 @@
+body {
+    display: flex;  /* Utilise le modèle flexbox pour le centrage */
+    justify-content: center;  /* Centre horizontalement */
+    align-items: center;  /* Centre verticalement */
+    min-height: 100vh;  /* Hauteur minimum de 100% de la fenêtre */
+    margin: 0;  /* Supprime les marges par défaut */
+    background-color: #f0f0f0;  /* Couleur de fond gris clair */
+    font-family: Arial, sans-serif;  /* Police de caractères */
+}
+
+.game-container {
+    text-align: center;  /* Centre le contenu du conteneur */
+}
+
+h1 {
+    color: #333;  /* Couleur du titre */
+    margin-bottom: 20px;  /* Espace sous le titre */
+}
+
+#gameCanvas {
+    border: 2px solid #333;  /* Bordure du canvas */
+    background-color: #fff;  /* Fond blanc */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Ombre légère */
+}
+
+.score {
+    font-size: 24px;  /* Taille de la police du score */
+    margin: 20px 0;  /* Espacement vertical */
+    color: #333;  /* Couleur du texte */
+}
+
+#startButton {
+    padding: 10px 20px;  /* Espacement interne du bouton */
+    font-size: 16px;  /* Taille du texte */
+    background-color: #4CAF50;  /* Couleur de fond verte */
+    color: white;  /* Texte blanc */
+    border: none;  /* Pas de bordure */
+    border-radius: 5px;  /* Coins arrondis */
+    cursor: pointer;  /* Curseur en forme de main */
+    transition: background-color 0.3s;  /* Animation de couleur */
+}
+
+#startButton:hover {
+    background-color: #45a049;  /* Couleur plus foncée au survol */
+}

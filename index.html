@@ -1,0 +1,18 @@
+<!DOCTYPE html>  <!-- Déclare que c'est un document HTML5 -->
+<html lang="fr">  <!-- Début du document HTML avec français comme langue -->
+<head>  <!-- En-tête du document -->
+    <meta charset="UTF-8">  <!-- Définit l'encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Pour la responsive design sur mobile -->
+    <title>Snake Game</title>  <!-- Titre de l'onglet du navigateur -->
+    <link rel="stylesheet" href="style.css">  <!-- Lie le fichier CSS -->
+</head>
+<body>  <!-- Corps de la page -->
+    <div class="game-container">  <!-- Conteneur principal du jeu -->
+        <h1>Snake Game</h1>  <!-- Titre visible sur la page -->
+        <canvas id="gameCanvas" width="600" height="600"></canvas>  <!-- Zone de jeu -->
+        <div class="score">Score: <span id="scoreValue">0</span></div>  <!-- Affichage du score -->
+        <button id="startButton">Nouvelle Partie</button>  <!-- Bouton pour démarrer -->
+    </div>
+    <script src="game.js"></script>  <!-- Lie le fichier JavaScript -->
+</body>
+</html>
